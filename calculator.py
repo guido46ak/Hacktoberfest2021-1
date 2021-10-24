@@ -35,3 +35,6 @@ def start():
 
    else:
       print("Wrong Input")
+
+if __name__ == '__main__':
+    start()
