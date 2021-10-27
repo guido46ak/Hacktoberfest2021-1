@@ -1,12 +1,16 @@
+#Defining function for addition.
 def add(x, y):
    return x + y
 
+#Defining function for substraction.
 def subtract(x, y):
    return x - y
 
+#Defining function for multiplication.
 def multiply(x, y):
    return x * y
 
+#Defining function for division.
 def divide(x, y):
    return x / y
 
@@ -21,6 +25,7 @@ def start():
    num1 = int(input("Input First Number: "))
    num2 = int(input("Input Second Number: "))
 
+   #Knowing which operation to perform.
    if choice == '2':
       print(num1,"-",num2,"=", subtract(num1,num2))
 
