@@ -1,3 +1,4 @@
+#This is a python project
 import pygame
 import random
 # initializing pygame
